@@ -30,8 +30,8 @@
    Run with `/usr/local/bin/maze_api_cpp`
  
 # Examples
-`/?width=20&height=20&scale=10&seed=hello&revisit`
+`/?width=20&height=20&scale=10&seed=hello&revisit`  
 ![20x20 green blue maze with 10x10px cells containing loops](docs/20x20x10_revisit_set_seed.jpg)
 
-`/?width=50&height=50&scale=5`
+`/?width=50&height=50&scale=5`  
 ![50x50 green blue perfect maze with 5x5px cells](docs/50x50x5_norevisit.jpg)
