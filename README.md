@@ -9,12 +9,12 @@
   - Turns off caching for instantly updating mazes
 
 # Parameters
-  The API uses query string for the maze parameters.
-  `width` Width of maze grid
-  `height` Height of maze grid
-  `seed` Seed string 
-  `scale` Amount of pixels in the final image per 1 grid cell
-  `revisit` If present, 1 cell can be visited multiple times (imperfect mazes with loops and such)
+  The API uses query string for the maze parameters.  
+  `width`   Width of maze grid (allowed 1-100; default 10)  
+  `height`  Height of maze grid (default 1-100; default 10)  
+  `seed`    Seed string (any character sequence that query string allows)  
+  `scale`   Amount of pixels in the final image per 1 grid cell (1 - 50; default is 2)  
+  `revisit` If present, 1 cell can be visited multiple times (imperfect mazes with loops and such)  
 
 # Running
 ## Docker
